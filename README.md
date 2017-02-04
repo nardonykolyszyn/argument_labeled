@@ -4,7 +4,7 @@ Add a handful of convenient methods to Module, which make working with argument 
 
 ## Usage 
 ```ruby
-require 'keyword_arguments'
+require 'argument_labeled'
 
 class ReadFile
   required_arguments :dir, :filename
