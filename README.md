@@ -26,9 +26,8 @@ class ReadFile
     end
   end
 end
+file = ReadFile.new(DIR, FILENAME)
+file.open_file(mode: 'r+')
+file.write_in_file(text: 'Hello World')
 ```
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+
