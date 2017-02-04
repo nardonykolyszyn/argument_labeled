@@ -3,7 +3,7 @@
 Add a handful of convenient methods to Module, which make working with argument hashes in Ruby a bit easier.
 
 ## Usage 
-
+```
 require 'keyword_arguments'
 
 class ReadFile
@@ -26,3 +26,4 @@ class ReadFile
     end
   end
 end
+```
